@@ -1,0 +1,440 @@
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/curlybracket.py", line 35, in check
+    func_start, _, _ = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/curlybracket.py", line 25, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/cablumsa/trig.c:139:27: before: =
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/curlybracket.py", line 35, in check
+    func_start, _, _ = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/curlybracket.py", line 25, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/pkrish22/trig.c:29:3: before: int
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/curlybracket.py", line 35, in check
+    func_start, _, _ = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/curlybracket.py", line 25, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/snain/trig.c:197:4: before: /
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/curlybracket.py", line 35, in check
+    func_start, _, _ = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/curlybracket.py", line 25, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/adpatil/trig.c:22:81: before: =
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/curlybracket.py", line 35, in check
+    func_start, _, _ = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/curlybracket.py", line 25, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/deturner/trig.c:22:12: before: "%lf"
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 200, in check_before_func
+    func_start, _, _ = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/cablumsa/trig.c:139:27: before: =
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 200, in check_before_func
+    func_start, _, _ = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/pkrish22/trig.c:29:3: before: int
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 200, in check_before_func
+    func_start, _, _ = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/snain/trig.c:197:4: before: /
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 200, in check_before_func
+    func_start, _, _ = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/adpatil/trig.c:22:81: before: =
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 200, in check_before_func
+    func_start, _, _ = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/deturner/trig.c:22:12: before: "%lf"
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 229, in check_tag_param
+    func_start, func_paramno, func_return = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/cablumsa/trig.c:139:27: before: =
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 229, in check_tag_param
+    func_start, func_paramno, func_return = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/pkrish22/trig.c:29:3: before: int
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 229, in check_tag_param
+    func_start, func_paramno, func_return = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/snain/trig.c:197:4: before: /
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 229, in check_tag_param
+    func_start, func_paramno, func_return = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/adpatil/trig.c:22:81: before: =
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 229, in check_tag_param
+    func_start, func_paramno, func_return = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/deturner/trig.c:22:12: before: "%lf"
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 214, in check_tag_return
+    func_start, func_paramno, func_return = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/cablumsa/trig.c:139:27: before: =
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 214, in check_tag_return
+    func_start, func_paramno, func_return = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/pkrish22/trig.c:29:3: before: int
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 214, in check_tag_return
+    func_start, func_paramno, func_return = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/snain/trig.c:197:4: before: /
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 214, in check_tag_return
+    func_start, func_paramno, func_return = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/adpatil/trig.c:22:81: before: =
+Traceback (most recent call last):
+  File "scripts/run.py", line 45, in diagnose
+    num_error = action(path, print=write_helper)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 214, in check_tag_return
+    func_start, func_paramno, func_return = search_func_def(fname)
+  File "/Users/yangxueqi/Downloads/autograd/scripts/style/comment.py", line 51, in search_func_def
+    cpp_args=['-E', '-std=c99', '-nostdinc', r'-Iscripts/pycparser/utils/fake_libc_include'])
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/__init__.py", line 90, in parse_file
+    return parser.parse(text, filename)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 150, in parse
+    debug=debug)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 331, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 1199, in parseopt_notrack
+    tok = call_errorfunc(self.errorfunc, errtoken, self)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/ply/yacc.py", line 193, in call_errorfunc
+    r = errorfunc(token)
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/c_parser.py", line 1934, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/Users/yangxueqi/anaconda3/lib/python3.6/site-packages/pycparser/plyparser.py", line 67, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+pycparser.plyparser.ParseError: Project-1/deturner/trig.c:22:12: before: "%lf"
